@@ -110,3 +110,5 @@ InfluxDB support Python, the lib is [here](https://github.com/influxdata/influxd
 InfluxDB support Java, the lib is [here](https://github.com/influxdata/influxdb-java)
 
 InfluxDB support PHP, the lib is [here](https://github.com/influxdata/influxdb-php), **I didn't use this**
+
+For more information about InfluxDB programming interface please look at [here](https://github.com/influxdata/)
