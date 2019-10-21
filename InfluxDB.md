@@ -81,16 +81,19 @@ Item Name | Description
   <img src="/Image/PIC1.gif">
 </p>
 
-Where _ts_ is the starting time, _tn_ is the ending time. From query example 2 you can get all the information for the above formula.
+Where _ts_ is the starting time, _te_ is the ending time. From query example 2 you can get all the information for the above formula.
 
 ## Query Example
 
+### Query Example 1
 
 In this particular example, we want to get device ID = 0000, Channel ID = 1, the RMS current average value from 2018-05-31T00:00:00.000Z (UTC time) to 2018-05-31T01:00:00.000Z (UTC time). The average is based on 5 minute time window (means every 5 minutes make an average of that 5 minutes and return one value) 
 
 ```
 SELECT mean("RMSCurrent") AS "mean_Val" FROM "SDB"."basicRetention"."SecondlyReading" WHERE time > '2018-05-31T00:00:00.000Z' AND time < '2018-05-31T01:00:00.000Z' AND "ChannelId"='1' AND "DeviceId"='0000' GROUP BY time(5m)
 ```
+
+### Query Example 2
 
 In this particular example, we want to get device ID = 000012, Channel ID = 1, the Real Power value from 2019-10-21T00:00:00.000Z (UTC time) to 2019-10-21T01:00:00.000Z (UTC time). There is no average process.
 
