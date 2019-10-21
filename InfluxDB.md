@@ -61,3 +61,12 @@ _The "Fields" include the specific data/information that each circuit breaker be
 - [ReactivePower]
 - [RealPower]
 
+Item Name | Description
+------------ | -------------
+"Frequency" | The voltage / network frequency of the circuit breaker, under normal circumstances, all circuit breaker frequencies are the same as the frequency of the power grid, because the frequency of the power grid is basically constant.
+"ApparentPower" | This is the series name which Smart DB raw data were stored
+"RMSCurrent" | This is used to trace/select a specified device based on its unique ID
+"RMSVoltage" | This is used to trace/select a specified channnel based on the channel
+"ReactivePower" | This is used to trace/select a specified channnel based on the channel
+"RealPower" | This is used to trace/select a specified channnel based on the channel
+
