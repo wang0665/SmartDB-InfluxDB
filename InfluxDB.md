@@ -77,6 +77,8 @@ Item Name | Description
 "ReactivePower" | Reactive Power of the circuit breaker. Didn't use in this project
 "RealPower" | Real Power of the circuit breaker. **This is the important information in this project**
 
+![basic_structure](/Image/PIC1.png)
+
 ## Query Example
 
 
