@@ -78,8 +78,10 @@ Item Name | Description
 "RealPower" | Real Power of the circuit breaker. **This is the important information in this project**
 
 <p align="center">
-  <img width="460" height="300" src="/Image/PIC1.gif">
+  <img src="/Image/PIC1.gif">
 </p>
+
+
 
 ## Query Example
 
