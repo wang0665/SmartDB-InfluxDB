@@ -23,6 +23,8 @@ Please read this before you do any coding
 
 ## Database Structure
 
+The version of the InfluxDB is 1.7
+
 ### Measurements & Tags
 
 _The detailed information about Measurements & Tags, please refer to InfluxDB [manual](https://docs.influxdata.com/influxdb/v1.7/)_
@@ -84,3 +86,13 @@ In this particular example, we want to get device ID = 000012, Channel ID = 1, t
 ```
 SELECT "RealPower" AS "Real_P" FROM "SDB"."basicRetention"."SecondlyReading" WHERE time > '2019-10-21T00:00:00.000Z' AND time < '2019-10-21T01:00:00.000Z' AND "ChannelId"='1' AND "DeviceId"='000012'
 ```
+
+For more detail about how to query, please refer to [InfluxDB Manual](https://docs.influxdata.com/influxdb/v1.7/)
+
+### Programming Interface 
+
+InfluxDB support Python this lib is [here](https://github.com/influxdata/influxdb-python)
+
+InfluxDB support Java this lib is [here](https://github.com/influxdata/influxdb-java)
+
+InfluxDB support PHP this lib is [here](https://github.com/influxdata/influxdb-php), **I didn't use this**
