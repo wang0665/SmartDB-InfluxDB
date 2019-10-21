@@ -91,8 +91,8 @@ For more detail about how to query, please refer to [InfluxDB Manual](https://do
 
 ### Programming Interface 
 
-InfluxDB support Python this lib is [here](https://github.com/influxdata/influxdb-python)
+InfluxDB support Python, the lib is [here](https://github.com/influxdata/influxdb-python)
 
-InfluxDB support Java this lib is [here](https://github.com/influxdata/influxdb-java)
+InfluxDB support Java, the lib is [here](https://github.com/influxdata/influxdb-java)
 
-InfluxDB support PHP this lib is [here](https://github.com/influxdata/influxdb-php), **I didn't use this**
+InfluxDB support PHP, the lib is [here](https://github.com/influxdata/influxdb-php), **I didn't use this**
