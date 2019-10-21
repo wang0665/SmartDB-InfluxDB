@@ -6,11 +6,11 @@ We are using InfluxDB for our database. It is a time-series database.
 
 The manual of InfluxDB can be found at [here](https://docs.influxdata.com/influxdb/v1.7/)
 
-Please read this before you do any coding
+Please read and undertand the influxDB before you do any coding
 
 ### Important note for operating the DB
 
-* DO NOT do a heavy query such as more than 12 hours data query, schedule a task and do a periodic query and summary to reduce the load of the server
+* DO NOT submit a heavy query such as more than 12 hours data query, schedule a task and do a periodic query and summary to reduce the load of the server
 * DO NOT share the ip address, user name, password with other's people
 
 ### Visualization tools for InfluxDB [Chronograf]
