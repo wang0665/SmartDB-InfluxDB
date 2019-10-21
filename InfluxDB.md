@@ -9,11 +9,13 @@ We are using InfluxDB for our database. It is a time series database.
 
 ### Visualization tools for InfluxDB
 
-Suppose you IP address is 127.0.0.1 [replace this accordingly]
+- Suppose you IP address is 127.0.0.1 [replace this accordingly]
 
-The visualization address will be 127.0.0.1:8888.
+- The visualization address will be 127.0.0.1:8888.
 
-The manual of how to use Chronograf is [here](https://docs.influxdata.com/chronograf/v1.7/)
+- The manual of how to use Chronograf is [here](https://docs.influxdata.com/chronograf/v1.7/)
+
+- This tool provides an easy way to understand the DB base structure and you can do some simple plot to better understand the structure.
 
 
 The Database name is "SDB"
