@@ -1,13 +1,17 @@
 ## InfluxDB Basic
 
-We are using InfluxDB for our database. It is a time series database.
+We are using InfluxDB for our database. It is a time-series database.
 
-### important note for operating the DB
+The manual of InfluxDB can be found at [here](https://docs.influxdata.com/influxdb/v1.7/)
+
+Please read this before you do any coding
+
+### Important note for operating the DB
 
 * DO NOT do a heavy query such as more than 12 hours data query, schedule a task and do a periodic query and summary to reduce the load of the server
 * DO NOT share the ip address, user name, password with other's people
 
-### Visualization tools for InfluxDB
+### Visualization tools for InfluxDB [Chronograf]
 
 - Suppose you IP address is 127.0.0.1 [replace this accordingly]
 
@@ -17,6 +21,16 @@ We are using InfluxDB for our database. It is a time series database.
 
 - This tool provides an easy way to understand the DB base structure and you can do some simple plot to better understand the structure.
 
+## Database Structure
+
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+    - Like this
+    - And this
+      - dfdsfdsf
+        - dsfdsfdsf
 
 The Database name is "SDB"
 
