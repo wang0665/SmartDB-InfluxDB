@@ -11,6 +11,10 @@ We are using InfluxDB for our database. It is a time series database.
 
 Suppose you IP address is 127.0.0.1 [replace this accordingly]
 
+The visualization address will be 127.0.0.1:8888.
+
+The manual of how to use Chronograf is [here](https://docs.influxdata.com/chronograf/v1.7/)
+
 
 The Database name is "SDB"
 
