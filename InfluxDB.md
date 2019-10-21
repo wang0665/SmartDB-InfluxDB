@@ -43,14 +43,7 @@ _The detailed information about Measurements & Tags, please refer to InfluxDB [m
 
 Item Name | Description
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-The Database name is "SDB"
-
-The SERIES name is "SecondlyReading"
-
-For each device there will be a unique ID which in the database is named as "DeviceID"
-
-Each device will include 10 channel which is name as "ChannelId"
+"SDB" | This is the database name which Smart DB data were stored
+"SecondlyReading" | This is the series name which Smart DB raw data were stored
+"DeviceID" | This is used to trace/select a specified device based on its unique ID
+"ChannelId" | This is used to trace/select a specified channnel based on the channel
