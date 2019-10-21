@@ -48,4 +48,16 @@ Item Name | Description
 "DeviceID" | This is used to trace/select a specified device based on its unique ID
 "ChannelId" | This is used to trace/select a specified channnel based on the channel
 
-**For each Smart DB hardware, there will be 10 channel correspond to 10 physical circuit breaker of the Distribution Box/Board. The information of each individual circuit breaker (In the database we name them as "ChannelID") can be selected and queried. The information of each circuir breaker are shown as next part**
+**For each Smart DB hardware, there will be 10 channels correspond to 10 physical circuit breakers of the Distribution Box/Board. The information of each individual circuit breaker (In the database we name them as "ChannelID") can be selected and queried. The information of each circuit breaker is listed in the next part.**
+
+### Fields
+
+_The "Fields" include the specific data/information that each circuit breaker be recorded. The detailed information about Fields, please refer to InfluxDB [manual](https://docs.influxdata.com/influxdb/v1.7/)_
+
+- [Frequency]
+- [ApparentPower]
+- [RMSCurrent]
+- [RMSVoltage]
+- [ReactivePower]
+- [RealPower]
+
