@@ -75,7 +75,7 @@ Item Name | Description
 "ReactivePower" | Reactive Power of the circuit breaker. Didn't use in this project
 "RealPower" | Real Power of the circuit breaker. **This is the important information in this project**
 
-### Query Example
+## Query Example
 
 
 In this particular example, we want to get device ID = 0000, Channel ID = 1, the RMS current average value from 2018-05-31T00:00:00.000Z (UTC time) to 2018-05-31T01:00:00.000Z (UTC time). The average is based on 5 minute time window (means every 5 minutes make an average of that 5 minutes and return one value) 
@@ -92,7 +92,7 @@ SELECT "RealPower" AS "Real_P" FROM "SDB"."basicRetention"."SecondlyReading" WHE
 
 For more detail about how to query, please refer to [InfluxDB Manual](https://docs.influxdata.com/influxdb/v1.7/)
 
-### Programming Interface 
+## Programming Interface 
 
 InfluxDB support Python, the lib is [here](https://github.com/influxdata/influxdb-python)
 
