@@ -1,3 +1,5 @@
+# Smart DB Programming Interface Document
+
 ## InfluxDB Basic
 
 We are using InfluxDB for our database. It is a time-series database.
