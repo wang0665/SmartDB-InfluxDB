@@ -81,7 +81,7 @@ Item Name | Description
   <img src="/Image/PIC1.gif">
 </p>
 
-Where _ts_ is the starting time, _te_ is the ending time. From query example 2 you can get all the information for the above formula.
+Where _ts_ is the starting time, _te_ is the ending time. From **Query Example 2** you can get all the information for the above formula.
 
 ## Query Example
 
