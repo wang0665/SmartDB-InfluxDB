@@ -23,8 +23,23 @@ Please read this before you do any coding
 
 ## Database Structure
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
+### Measurements & Tags
+
+_The detailed information about Measurements & Tags, please refer to InfluxDB [manual](https://docs.influxdata.com/influxdb/v1.7/)_
+
+- [SDB]
+  - [SecondlyReading]
+    - [DeviceID]
+      - 0111 (examlpe only)
+      - 0901 (examlpe only)
+      - xxxx
+      - ....
+    - [ChannelId]   
+      - 0
+      - 1
+      - ...
+      - 9
+      
   - Like this
   - And this
     - Like this
