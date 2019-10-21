@@ -40,12 +40,12 @@ _The detailed information about Measurements & Tags, please refer to InfluxDB [m
       - ...
       - 9
       
-  - Like this
-  - And this
-    - Like this
-    - And this
-      - dfdsfdsf
-        - dsfdsfdsf
+
+Item Name | Description
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 
 The Database name is "SDB"
 
