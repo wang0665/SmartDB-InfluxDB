@@ -2,6 +2,7 @@
 
 We are using InfluxDB for our database. It is a time series database.
 
+### important note for operate the DB
 
 The Database name is "SDB"
 
