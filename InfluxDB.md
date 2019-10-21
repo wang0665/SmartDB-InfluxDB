@@ -1,3 +1,8 @@
+## InfluxDB Basic
+
+We are using InfluxDB for our database. It is a time series database.
+
+
 The Database name is "SDB"
 
 The SERIES name is "SecondlyReading"
