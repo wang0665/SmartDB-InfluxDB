@@ -19,7 +19,10 @@ Please read this before you do any coding
 
 - The manual of how to use Chronograf is [here](https://docs.influxdata.com/chronograf/v1.7/)
 
-- This tool provides an easy way to understand the DB base structure and you can do some simple plot to better understand the structure.
+- This tool provides an easy way to understand the DB base structure and you can do 
+  - Some simple plot to better understand the structure
+  - Test you query command to make sure it is correct before put input programming
+  - Quickly undertand the data
 
 ## Database Structure
 
